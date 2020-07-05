@@ -45,6 +45,15 @@ h4{
   letter-spacing: 1.5;
   color:salmon;
 }
+.msg{
+  margin: 0 ;
+  font-family: "Monserrat-bold", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 1.5;
+  color:#fff;
+}
+
 
 #note{
   border-radius: 15px;
@@ -76,7 +85,7 @@ h4{
   width:100%;
   border-radius: 15px;
   border: 6px solid #f7f4e7;
-  border-style: inset;
+  border-style: outset;
 }
 .carousel-control-prev-icon, .carousel-control-next-icon{
   background-color:salmon;
@@ -112,6 +121,7 @@ h4{
 
 }
 .circle:hover{
+  color:#250b0b;
   background-color: salmon;
   transform: rotate(360deg);
   border: 2px solid blue;
