@@ -1,0 +1,256 @@
+
+body{
+  text-align: center;
+}
+.container-fluid{
+  padding:3% 5% 3%;
+}
+.navbar{
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 1.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light", sans-serif;
+}
+h1{
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 3.5rem;
+  line-height:1.5;
+  font-weight: bold;
+}
+
+h2{
+  font-family: 'Montserrat -bold', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5
+}
+h3{
+  font-family: "Monserrat-bold", sans-serif;
+  font-size: 1.5rem;
+}
+h4{
+  margin: 0 ;
+  font-family: "Monserrat-bold", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 1.5;
+  color:salmon;
+}
+
+#note{
+  border-radius: 15px;
+  color: #fff;
+  background-color: salmon;
+}
+
+.left{
+  padding: 0 20%;
+  color: #fff;
+  margin-bottom:0;
+}
+
+.cases{
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 15px;
+  position: relative;
+    text-align: center;
+    background-color:#fff;
+    color:#250b0b;
+  }
+
+  .carousel-item{
+    padding: 5% 15%;
+  }
+
+.cimg{
+  width:100%;
+  border-radius: 15px;
+  border: 6px solid #f7f4e7;
+  border-style: inset;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background-color:salmon;
+  transform: scale(-0.8);
+}
+.image{
+  width:80%;
+  transform: rotate(25deg);
+  margin-top:10px;
+  right:30%;
+  top:15px;
+  position: absolute;
+}
+.circle{
+  margin: 0;
+  width: 100px;
+  background-color: pink;
+  text-align: center;
+  padding: 50px 0;
+  border-radius: 100%;
+  line-height: 0;
+  position: relative;
+  bottom:-55px;
+  left: 0;
+  z-index: 1;
+  cursor: pointer;
+  transition: 2s;
+  animation-name: flip;
+  animation-duration: 20s;
+  animation-fill-mode: backwards;
+  animation-timing-function:linear;
+  animation-iteration-count:1;
+
+}
+.circle:hover{
+  background-color: salmon;
+  transform: rotate(360deg);
+  border: 2px solid blue;
+}
+@keyframes flip{
+  from{transform: translate(0px);}
+  to{transform: translate(1300px);}
+}
+
+p{
+  color: #8f8f8f;
+  padding: 5%
+}
+
+.txtt{
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricingCol {
+  padding-left: 3% 2%;
+}
+.dill{
+  padding:9% 15%;
+  text-align: center;
+
+}
+.buttn{
+  text align: center;
+  width:100%;
+  padding:6% 25% 0 25%;
+}
+.bt{
+  margin:5% 3% 5% 0;
+}
+#footer{
+  padding: 6% 0 2% 0;
+  background-color: #fff;
+  text-align: center;
+}
+.foot{
+  padding:0 0 0 0;
+}
+.btt{
+  margin-left: 10px;
+}
+#cta{
+}
+
+@media (max-width:576px){
+body, div{
+  text-align: center;
+  margin:0
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+}
+.nav-item{
+  padding: 0 10px;
+}
+.nav-link{
+  font-size: 0.9rem;
+  font-family: "Montserrat-light", sans-serif;
+}
+.circle{
+  bottom:-40px;
+  font-size: 0.6rem;
+  font-weight: bold;
+  line-height: 0.5;
+  padding:30px 0;
+  width: 65px;
+}
+.cimg{
+  margin: 0 1% 0 2px;
+  width:95%
+}
+h4{
+  font-family: "Montserrat-light", sans-serif;
+  font-size: 0.8rem;
+  line-height:1.5;
+  letter-spacing: 1;
+
+
+}
+  h1, h2{
+    font-family: "Montserrat-light", sans-serif;
+    font-size: 1.5rem;
+    line-height:1;
+    font-weight: bold;
+  }
+  .dill{
+    padding:6% 11%;
+    text-align: center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body, div{
+    text-align: center;
+    margin:0
+  }
+
+  .navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.9rem;
+  }
+  .nav-item{
+    padding: 0 10px;
+  }
+  .nav-link{
+    font-size: 1rem;
+    font-family: "Montserrat-light", sans-serif;
+  }
+  .cimg{
+    margin: 0 1% 0 2px;
+    width:95%;
+  }
+
+  .circle{
+    bottom:-40px;
+    font-size: 0.6rem;
+    font-weight: bold;
+    line-height: 0.5;
+    padding:35px 0;
+    width: 70px;
+    transition: 2s;
+  }
+    h1, h2{
+      font-family: "Montserrat", sans-serif;
+      font-size: 2.5rem;
+      line-height:1.2;
+      font-weight: bold;
+    }
+    .dill{
+      padding:6% 11%;
+      text-align: center;
+    }
+   }
